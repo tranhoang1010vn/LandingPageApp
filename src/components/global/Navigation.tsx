@@ -12,7 +12,10 @@ export default function Navigation() {
       <div className="w-full mx-auto px-8 max-w-7xl lg:px-16">
         <div className="relative flex flex-col w-full py-5 mx-auto lg:items-center lg:justify-between lg:flex-row lg:px-6">
           <div className="flex flex-row items-center justify-between lg:justify-start">
-            <Link href="/" className="text-black inline-flex items-center gap-3">
+            <Link
+              href="/"
+              className="text-black inline-flex items-center gap-3"
+            >
               <Image width={40} height={40} src="/logo.svg" alt="logo" />
               <span className="font-bold">Quawaco</span>
             </Link>
@@ -53,24 +56,24 @@ export default function Navigation() {
           >
             <Link
               className="text-sm text-black transition duration-300 hover:text-blue-600 lg:ml-auto"
-              href="/#features"
+              href="/"
             >
-              Tính năng
+              Home
+            </Link>
+            <Link
+              href="/software"
+              className="text-sm text-black transition duration-300 hover:text-blue-600 relative"
+            >
+              Phần mềm
+              <span className="bg-red-600 ms-1 text-white text-[10px] px-2 py-1 rounded-full">
+                NEW
+              </span>
             </Link>
             <Link
               href="/tutorials"
               className="text-sm text-black transition duration-300 hover:text-blue-600 relative"
             >
               Hướng dẫn
-              <span className="bg-red-600 ms-1 text-white text-[10px] px-2 py-1 rounded-full">
-                NEW
-              </span>
-            </Link>
-            <Link
-              href="/"
-              className="text-sm text-black transition duration-300 hover:text-blue-600 relative"
-            >
-              Lịch sử
               <sup className="ml-1 inline-block mt-1 w-1.5 h-1.5 bg-green-500 rounded-full"></sup>
             </Link>
 

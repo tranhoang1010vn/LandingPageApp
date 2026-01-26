@@ -1,4 +1,7 @@
 {
+  "/_not-found/page": "app/_not-found/page.js",
   "/page": "app/page.js",
-  "/tutorials/page": "app/tutorials/page.js"
+  "/software/qwaterhub/page": "app/software/qwaterhub/page.js",
+  "/tutorials/page": "app/tutorials/page.js",
+  "/tutorials/qwaterhub/page": "app/tutorials/qwaterhub/page.js"
 }

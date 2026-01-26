@@ -1,5 +1,201 @@
-[00:00:05.352] Server  LOG     ✓ Ready in 3.8s
-[00:00:15.221] Browser WARN    Image with src "http://localhost:3025/logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:15.221] Browser WARN    Image with src "/images/ghiso_1_8.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:08:15.161] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:00:05.600] Server  LOG     ✓ Ready in 4.1s
+[00:00:15.859] Browser WARN    Image with src "http://localhost:3025/logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:20.756] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:01:21.328] Server  LOG     ✓ Compiled in 1276ms
+[00:01:57.677] Server  LOG     ✓ Compiled in 40ms
+[00:07:42.180] Server  LOG     ✓ Compiled in 66ms
+[00:07:55.821] Server  LOG     ✓ Compiled in 35ms
+[00:07:56.666] Browser WARN    Image with src "http://localhost:3025/logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:07:56.722] Browser WARN    Image with src "http://localhost:3025/logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:08:01.751] Browser ERROR   uncaughtError: Error: Internal Next.js error: Router action dispatched before initialization.
+[00:08:01.892] Server  LOG     ✓ Compiled in 5.2s
+[00:08:02.276] Server  LOG     ✓ Compiled in 41ms
+[00:09:31.750] Server  LOG     ✓ Compiled in 80ms
+[00:09:50.445] Server  LOG     ✓ Compiled in 88ms
+[00:09:50.560] Browser ERROR   ./src/app/tutorials/qwaterhub/page.tsx:44:11
+Parsing ecmascript source code failed
+  42 |           //   "/images/tutorial/qwaterhub-download.jpg",
+  43 |           //   "/images/tutorial/qwaterhub-install.jpg",
+> 44 |           ],
+     |           ^
+  45 |           video: "M0KC-38Nems",
+  46 |         },
+  47 |         {
+
+Unexpected token `]`. Expected identifier, string literal, numeric literal or [ for the computed key
+
+Import traces:
+  Client Component Browser:
+    ./src/app/tutorials/qwaterhub/page.tsx [Client Component Browser]
+    ./src/app/tutorials/qwaterhub/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/tutorials/qwaterhub/page.tsx [Client Component SSR]
+    ./src/app/tutorials/qwaterhub/page.tsx [Server Component]
+[02:12:26.780] Server  LOG     ✓ Compiled in 175ms
+[02:13:08.659] Server  LOG     ✓ Compiled in 117ms
+[02:13:48.215] Server  LOG     ✓ Compiled in 58ms
+[02:13:55.913] Server  LOG     ✓ Compiled in 29ms
+[02:15:08.710] Server  LOG     ✓ Compiled in 74ms
+[02:15:09.486] Browser ERROR   ./src/app/tutorials/qwaterhub/page.tsx:40:122
+Parsing ecmascript source code failed
+  38 |           title: "Đăng ký tài khoản QwaterHub",
+  39 |           content:
+> 40 |             "00:00 - 00:03 : Màn hình hiển thị logo QwaterHub và trang Đăng nhập. Người dùng nhấn vào "Đăng ký" ở góc dưới bên phải. 00:03 - 01:08 : Người dùng thực hiện các bước đăng ký tài khoản mới:
+     |                                                                                                                          ^^^^^^
+  41 |
+  42 | Nhập "Tên đăng nhập": thalam
+  43 |
+
+Expected ',', got 'Đăng'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/tutorials/qwaterhub/page.tsx [Client Component Browser]
+    ./src/app/tutorials/qwaterhub/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/tutorials/qwaterhub/page.tsx [Client Component SSR]
+    ./src/app/tutorials/qwaterhub/page.tsx [Server Component]
+[02:15:36.046] Server  LOG     ✓ Compiled in 36ms
+[02:15:52.201] Server  LOG     ✓ Compiled in 40ms
+[02:17:40.043] Server  LOG     ✓ Compiled in 418ms
+[02:17:40.160] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <p> p 
+
+  ...
+    <RedirectErrorBoundary router={{...}}>
+      <InnerLayoutRouter url="/tutorials..." tree={[...]} params={{}} cacheNode={{rsc:Promise, ...}} segmentPath={[...]} ...>
+        <SegmentViewNode type="page" pagePath="tutorials/...">
+          <SegmentTrieNode>
+          <ClientPageRoot Component={function QwaterHubTutorialPage} serverProvidedParams={{...}}>
+            <QwaterHubTutorialPage params={Promise} searchParams={Promise}>
+              <div className="min-h-scre...">
+                <section>
+                <section className="py-16 px-8...">
+                  <div className="flex gap-8...">
+                    <aside>
+                    <div className="flex-1 min...">
+                      <div className="space-y-12">
+                        <div className="scroll-mt-24" id="registration">
+                          <div>
+                          <div className="space-y-6">
+                            <div className="bg-base-50...">
+                              <h3>
+>                             <p className="text-base-700 leading-relaxed mb-4">
+                                <div className="space-y-3">
+                                  <div className="bg-blue-50...">
+>                                   <p className="font-semibold text-blue-900 mb-2">
+                                    ...
+                              ...
+                        ...
+                ...
+        ...
+      ...
+
+[02:17:40.160] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <p>
+[02:17:40.160] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <ul> p 
+
+  ...
+    <RedirectErrorBoundary router={{...}}>
+      <InnerLayoutRouter url="/tutorials..." tree={[...]} params={{}} cacheNode={{rsc:Promise, ...}} segmentPath={[...]} ...>
+        <SegmentViewNode type="page" pagePath="tutorials/...">
+          <SegmentTrieNode>
+          <ClientPageRoot Component={function QwaterHubTutorialPage} serverProvidedParams={{...}}>
+            <QwaterHubTutorialPage params={Promise} searchParams={Promise}>
+              <div className="min-h-scre...">
+                <section>
+                <section className="py-16 px-8...">
+                  <div className="flex gap-8...">
+                    <aside>
+                    <div className="flex-1 min...">
+                      <div className="space-y-12">
+                        <div className="scroll-mt-24" id="registration">
+                          <div>
+                          <div className="space-y-6">
+                            <div className="bg-base-50...">
+                              <h3>
+>                             <p className="text-base-700 leading-relaxed mb-4">
+                                <div className="space-y-3">
+                                  <div className="bg-blue-50...">
+                                    <p>
+                                    <div className="text-blue-...">
+                                      <p>
+                                      <p>
+>                                     <ul className="list-disc list-inside ml-4 space-y-1">
+                                      ...
+                              ...
+                        ...
+                ...
+        ...
+      ...
+
+[02:17:40.160] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <ul>
+[02:17:40.160] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <div> p 
+
+  ...
+    <RedirectErrorBoundary router={{...}}>
+      <InnerLayoutRouter url="/tutorials..." tree={[...]} params={{}} cacheNode={{rsc:Promise, ...}} segmentPath={[...]} ...>
+        <SegmentViewNode type="page" pagePath="tutorials/...">
+          <SegmentTrieNode>
+          <ClientPageRoot Component={function QwaterHubTutorialPage} serverProvidedParams={{...}}>
+            <QwaterHubTutorialPage params={Promise} searchParams={Promise}>
+              <div className="min-h-scre...">
+                <section>
+                <section className="py-16 px-8...">
+                  <div className="flex gap-8...">
+                    <aside>
+                    <div className="flex-1 min...">
+                      <div className="space-y-12">
+                        <div className="scroll-mt-24" id="registration">
+                          <div>
+                          <div className="space-y-6">
+                            <div className="bg-base-50...">
+                              <h3>
+>                             <p className="text-base-700 leading-relaxed mb-4">
+                                <div className="space-y-3">
+                                  <div className="bg-blue-50...">
+                                    <p>
+>                                   <div className="text-blue-800 space-y-2">
+                              ...
+                        ...
+                ...
+        ...
+      ...
+
+[02:17:40.160] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <div>
+[02:17:46.392] Server  LOG     ✓ Compiled in 42ms
+[02:17:49.352] Server  LOG     ✓ Compiled in 87ms
+[02:18:39.974] Server  LOG     ✓ Compiled in 30ms
+[02:19:21.266] Server  LOG     ✓ Compiled in 53ms
+[02:19:27.648] Server  LOG     ✓ Compiled in 27ms
+[02:22:56.224] Server  LOG     ✓ Compiled in 51ms
+[02:23:13.544] Server  LOG     ✓ Compiled in 42ms
+[02:23:21.444] Server  LOG     ✓ Compiled in 46ms
+[02:23:40.434] Server  LOG     ✓ Compiled in 49ms
+[02:23:57.328] Server  LOG     ✓ Compiled in 22ms
+[02:24:03.598] Server  LOG     ✓ Compiled in 29ms
+[02:24:55.397] Server  LOG     ✓ Compiled in 76ms
+[02:25:34.142] Server  LOG     ✓ Compiled in 34ms
+[02:25:57.095] Server  LOG     ✓ Compiled in 31ms
+[02:26:22.822] Server  LOG     ✓ Compiled in 39ms
+[02:26:58.031] Server  LOG     ✓ Compiled in 52ms
+[02:27:35.458] Server  LOG     ✓ Compiled in 58ms
+[02:27:43.113] Server  LOG     ✓ Compiled in 28ms
+[02:27:53.385] Server  LOG     ✓ Compiled in 27ms
+[02:28:03.792] Server  LOG     ✓ Compiled in 28ms
+[02:28:26.484] Server  LOG     ✓ Compiled in 50ms
+[02:28:47.226] Server  LOG     ✓ Compiled in 62ms
+[02:39:35.905] Server  LOG     ✓ Compiled in 80ms
+[02:39:49.346] Server  LOG     ✓ Compiled in 39ms
+[02:39:59.501] Server  LOG     ✓ Compiled in 24ms
+[02:40:13.137] Server  LOG     ✓ Compiled in 26ms
+[02:40:22.454] Server  LOG     ✓ Compiled in 109ms
+[02:40:29.251] Server  LOG     ✓ Compiled in 32ms
+[02:40:37.783] Server  LOG     ✓ Compiled in 22ms
+[02:40:51.854] Server  LOG     ✓ Compiled in 27ms

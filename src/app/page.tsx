@@ -6,13 +6,19 @@ import WhyChooseUs from "@/components/landing/WhyChooseUs";
 import HowItWorks from "@/components/landing/HowItWorks";
 import Pricing from "@/components/landing/Pricing";
 import Testimonial from "@/components/global/Testimonial";
+import SoftwareList from "@/components/software/SoftwareList";
+import SoftwareHeader from "@/components/software/SoftwareHeader";
 
 export default function Home() {
   return (
     <>
       {/* <Hero /> */}
       {/* <SectionOne /> */}
-      <AppIntro />
+      {/* Header Section */}
+      <SoftwareHeader />
+
+      {/* Google Play Style Ranking Section */}
+      <SoftwareList />
       {/* <SectionTwo />
       <WhyChooseUs />
       <HowItWorks />

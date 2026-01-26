@@ -63,10 +63,55 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   type __Unused = __Check
 }
 
+// Validate ../../../src/app/software/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/software">> = Specific
+  const handler = {} as typeof import("../../../src/app/software/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../src/app/software/quawaco-gcs/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/software/quawaco-gcs">> = Specific
+  const handler = {} as typeof import("../../../src/app/software/quawaco-gcs/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../src/app/software/qwaterhub/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/software/qwaterhub">> = Specific
+  const handler = {} as typeof import("../../../src/app/software/qwaterhub/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../../src/app/tutorials/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/tutorials">> = Specific
   const handler = {} as typeof import("../../../src/app/tutorials/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../src/app/tutorials/quawaco-gcs/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/tutorials/quawaco-gcs">> = Specific
+  const handler = {} as typeof import("../../../src/app/tutorials/quawaco-gcs/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../src/app/tutorials/qwaterhub/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/tutorials/qwaterhub">> = Specific
+  const handler = {} as typeof import("../../../src/app/tutorials/qwaterhub/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check
